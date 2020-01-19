@@ -1,0 +1,8 @@
+tmp
+spot-env/
+bin
+.terraform
+*.tfstate
+*.tfstate.backup
+*.key
+*.pub

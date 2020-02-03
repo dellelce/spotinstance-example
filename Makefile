@@ -1,4 +1,4 @@
-# MyTutor Test Makefile
+# Spot InstancesTest Makefile
 
 VENV := spot-env
 TERRAFORM := $(PWD)/bin/terraform
@@ -72,6 +72,3 @@ ip:
 
 ssh:
 	@ssh -i $(KEYS) $(SSHOPTS) $(SYSUSER)@$(ip)
-
-ansible_test:
-	@. $(VENV)/bin/activate && ansible-playbook --private-key $(KEYS) --user $(SYSUSER)  --ssh-extra-args "$(SSHOPTS)" -b -i $(ip), ansible/test.yml

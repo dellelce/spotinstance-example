@@ -1,1 +1,17 @@
-Empty Help File!
+
+Main targets:
+
+help             This message
+pyvenv           Setup python virtualenv
+terravers        Find latest available version of Terraform
+terraversion     Report current installed version of Terraform - TODO: confusing targets...
+init             Setup terraform
+plan             Run "terraform plan"
+apply            Run "terraform apply"
+apply_force      Run "terraform apply" without acknowledgement
+keys             Generated SSH keys
+show             Run "terraform show"
+destroy          Run "terraform destroy"
+refresh          Run "terraform refresh"
+output           Run "terraform output"
+spot_status      Report on spot instance status

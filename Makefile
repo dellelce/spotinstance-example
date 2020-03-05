@@ -66,9 +66,3 @@ output:
 
 spot_status:
 	@echo $(SPOT_STATUS)
-
-ip:
-	@echo $(ip)
-
-ssh:
-	@ssh -i $(KEYS) $(SSHOPTS) $(SYSUSER)@$(ip)
